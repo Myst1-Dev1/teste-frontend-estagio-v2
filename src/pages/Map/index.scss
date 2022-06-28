@@ -1,0 +1,31 @@
+.leaflet-container{
+
+    width: 100%;
+    height: 100vh;
+  }
+
+.back{
+
+  button{
+    position: fixed;
+    top: 0.2rem;
+    right: 0.2rem;
+    z-index: 1000;
+    background-color: #1b2621;
+    border: 1px solid #cff9e2;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #cff9e2;
+    padding: 5px 15px 5px 15px;
+    transition: 1s;
+
+    a{
+      text-decoration: none;
+      color: aliceblue;
+    }
+    &:hover{
+      background-color: #165333;
+      color: black;
+    }
+  }
+}

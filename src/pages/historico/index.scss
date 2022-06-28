@@ -1,0 +1,57 @@
+.historico{
+    font-family: 'Poppins', sans-serif;
+    
+    span {
+        font-size: 11px;
+    }
+
+    h3{
+        font-weight: 600;
+    }
+}
+
+.row{
+    margin-right:0!important;
+}
+
+
+.back{
+
+   img{
+    width: 25px;
+    position: absolute;
+    left: 45px;
+    top: 30px;
+   }
+  }
+
+.ponto{
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+}
+
+.pagination1{
+    
+    ul{
+        list-style: none;
+
+        li{  
+            margin-left: 20px;
+            padding: 5px;
+            a{
+                text-decoration: none;
+                color: #1b2621;
+                padding: 5px;
+                transition: 0.3s;
+
+                &:hover{
+                    background-color: black;
+                    color: aliceblue;
+                    border-radius: 10px;
+                }
+            }
+
+        }
+    }
+}
